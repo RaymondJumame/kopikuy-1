@@ -256,19 +256,31 @@
 
         $(document).ready(function () {
             fetchData("semua");
+
             $("#select_kopi").change(function () {
                 var dipilih = $(this).val();
                 fetchData(dipilih);
             });
+
             $("#filter_harga").change(function () {
                 var dipilih = $(this).val();
+                var keyword = $("#cari-produk").val().toLowerCase();
+                
                 if (dipilih === "paling_mahal") {
                     selectedData.sort((a, b) => b.harga - a.harga);
                 } else if (dipilih === "paling_murah") {
                     selectedData.sort((a, b) => a.harga - b.harga);
                 }
-                displayData(selectedData);
+
+                if (keyword !== "") {
+                    var filteredData = selectedData.filter(item => item.nama.toLowerCase().includes(keyword));
+                    displayData(filteredData);
+                } else {
+                    // If no search keyword, display the sorted selectedData
+                    displayData(selectedData);
+                }
             });
+
             $("#cari-produk").on("input", function () {
                 var keyword = $(this).val().toLowerCase();
                 var filteredData = selectedData.filter(item => item.nama.toLowerCase().includes(keyword));
