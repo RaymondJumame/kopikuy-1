@@ -1,0 +1,39 @@
+{
+    "nonkopi": [
+        {
+            "foto": "https://fibercreme.com/wp-content/uploads/2021/04/Bubble-Thai-Tea.jpg",
+            "nama": "Thai Tea",
+            "size": "100 Gram",
+            "harga": "20.000",
+            "link": "https://www.google.com/search?q=thai+tea&tbm=shop"
+        },
+        {
+            "foto": "https://fibercreme.com/wp-content/uploads/2022/02/es-bandung-tanpa-susu.jpg",
+            "nama": "Es Bandung",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://www.google.com/search?q=es+bandung&tbm=shop"
+        },
+        {
+            "foto": "https://sweetrip.id/wp-content/uploads/2022/12/es-doger-kopyor.jpg",
+            "nama": "Es Doger",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://www.google.com/search?q=es+doger&tbm=shop"
+        },
+        {
+            "foto": "https://fibercreme.com/wp-content/uploads/2021/05/Es-Teler-Alpukat-300x300.jpg",
+            "nama": "Es Teler Alpukat",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://www.google.com/search?q=es+teler+alpukat&tbm=shop"
+        },
+        {
+            "foto": "https://fibercreme.com/wp-content/uploads/2022/02/korean-strawberry-milk.jpg",
+            "nama": "Korean Strawberry Milk",
+            "size": "100 Gram",
+            "harga": "50.000",
+            "link": "https://www.google.com/search?q=korean+strawberry+milk&tbm=shop"
+        }
+    ]
+}
